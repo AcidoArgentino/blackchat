@@ -6,7 +6,7 @@ const
 const app = express();
 
 // configuracion
-app.set('port', process.env.PORT || 27777);
+app.set('port', process.env.PORT || 3000);
 
 // archivos estaticos
 app.use(express.static(path.join(__dirname,'public')));
